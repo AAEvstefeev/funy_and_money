@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_margin="7dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_help_text" />
+
+    <CheckBox
+        android:id="@+id/check"
+         android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_again" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+         >
+
+        <Button
+            android:id="@+id/yes"
+             android:background="@drawable/key2_p"
+            android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_margin="7dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <Button
+            android:id="@+id/no"
+             android:background="@drawable/key1_p"
+            android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_margin="7dp"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+
+    </LinearLayout>
+
+</LinearLayout>

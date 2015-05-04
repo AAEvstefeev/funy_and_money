@@ -1,0 +1,118 @@
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg"
+    >
+
+   
+
+    <ListView
+        android:id="@+id/menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:divider="@null"
+        android:scrollbarStyle="insideOverlay"
+       android:layout_marginBottom="54dp"
+         >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/logo" />
+
+
+<com.nerdroom.fcash.help.GIFView
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+         android:visibility="gone"  
+         />
+     <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:text="@string/network_error"
+        android:textAppearance="?android:attr/textAppearanceLarge" />   
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/menu_key_p" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_menu"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lay_date"
+        android:orientation="vertical" > 
+         <TextView
+        android:id="@+id/tv_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:visibility="gone"
+        android:text="@string/game" />
+         <LinearLayout
+             android:id="@+id/lay_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal" 
+         android:visibility="gone"
+         > 
+            <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="до начала:" />
+        <TextView
+        android:id="@+id/data_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   
+     
+        android:text="TextView" />
+
+   </LinearLayout>
+  
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal" 
+         android:visibility="gone"
+         android:id="@+id/lay_end"
+         > 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="до окончания:" />
+     <TextView
+        android:id="@+id/data_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TextView" />
+     </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

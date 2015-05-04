@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="pop_help_title">Зарабатывай с улыбкой</string>
+    <string name="pop_help_text">   Fcash приветствует вас. Fcash не только поднимет вам настроение, но и даст возможность заработать от 750 до 7500 руб. в месяц."
+			   \n  Подробности в Правилах. Хотите просмотреть правила прямо сейчас?</string>
+    <string name="not_again">Больше не показывать</string>
+    
+    
+    
+    <string name="new_ver_shure">Вышла новая версия. Настоятельно рекомендуем обновить приложение. Старая версия может работать не корректно. Хотите обновить приложение прямо сейчас?</string>
+    <string name="new_ver_title">Обновление</string>
+    
+    
+    <string name="app_name">fcash</string>
+    <string name="action_settings">Settings</string>
+    <string name="news">Новости</string>
+    <string name="anekdoti">Анекдоты</string>
+    <string name="goroskop">Гороскоп</string>
+    <string name="pogoda">Погода</string>
+    <string name="demotivator">Демотиваторы</string>
+	<string name="coin_count">монеты:</string>
+	<string name="coin">Монеты</string>
+	<string name="name">Имя</string>
+	<string name="number">№</string>
+	<string name="text_help">
+	    
+	    
+	    
+	</string>
+	<string name="title_help">Правила</string>
+	   <string name="make_login">войти</string>
+	<string name="make_reg">Зарегестироваться</string>
+		<string name="reg">Регистрация</string>
+	  <string name="mail">e-mail</string>
+	    <string name="login">логин</string>
+	     <string name="pass">пароль</string>
+	      <string name="pass2">повторите пароль</string>
+	     <string name="gender">пол</string>
+	     <string name="age">дата рождения</string>
+	    <string name="ref_code">Реферальный код</string>
+	      <string name="woman">жен</string>
+	      <string name="man">муж</string>
+	      <string name="invite">Пригласить</string>
+	      <string name="invite_vk">Вконтакте</string>
+	      <string name="invite_sms">Отправить</string>
+	      <string name="invite_facebook">Пригласить в facebook</string>
+	      <string name="repost_vk">Рассказать</string>
+	     <string name="repost_facebook">рассказать в facebook</string>
+	      <string name="repost_twitter">рассказать в twitter</string>
+	     <string name="spam_text1">Приглашаю тебя в круг моих друзей развлекательного приложения fcash.
+Демотиваторы, приколы, удачные кадры плюс возможность заработка.
+
+</string>
+	      <string name="spam_text2">\nВведи при регистрации мой Invite code:</string>
+	       <string name="spam_text3">\nСкачать fcash можешь тут: https://play.google.com/store/apps/details?id=com.nerdroom.funy</string>
+		<string name="yes">Да</string>
+		<string name="no">Нет</string>
+		<string name="shure_invite">Вы уверены что хотите пригласить </string>
+		<string name="invite_fcash">Приглашение в fcash</string>
+		<string name="sms_send">SMS отправленно</string>
+		<string name="error">Ошибка</string>
+		<string name="network_denied">Сеть не доступна</string>
+		<string name="no_network">Нет сети</string>
+		<string name="sms_done">SMS доставленно</string>
+		<string name="sms_not_done">SMS не доставленно</string>
+		<string name="no_contact">Контаков не найденно</string>
+		<string name="post_wall_text">fcash прекрасное приложение мне так нравиться!</string>
+		<string name="search">search</string>
+		    <string name="app_id">620936921275205</string>
+    <string name="exception">Exception: %1$s</string>
+    <string name="ok_button">OK</string>
+    <string name="send">send</string>
+     <string name="lk">Личный кабинет</string>
+          <string name="lk_up">ЛИЧНЫЙ КАБИНЕТ</string>
+     <string name="menu">Меню</string>
+     <string name="level">Ваш уровень:</string>
+     <string name="date_pay">Абонемент до</string>
+     <string name="writed">Мои друзья</string>
+     <string name="schet">Мой счет</string>
+     <string name="payback">Оплатить абонимент</string>
+     <string name="get_money">Вывод денег</string>
+     <string name="set_age">Выберети дату рождения</string>
+     <string name="rcode">Реферальный код:</string>
+     <string name="all_fr">всех друзей</string>
+     <string name="fr">всех друзей</string>
+     <string name="network_error">Сеть не доступна</string>
+          <string name="error_service">Ошибка связи с сервером</string>
+            <string name="error_unknow">Не известная ошибка</string>
+             <string name="wrong_login_pass">Не верный логин или пароль</string>
+           <string name=" mail_conflict">Пользователь с таким e-mail уже существует</string>
+          <string name="send_pass">Выслать пароль</string>
+           <string name="change_pass">Забыл пароль</string>
+            <string name="back">Назад</string>
+           <string name="reg_ok">reg_ok</string>
+           <string name="pass_changed">Новый пароль был выслан на ваш e-mail</string>
+           <string name="mail_not_find">Пользователь  с таким адрессом e-mail не найден</string>
+            <string name="wrong_mail">Указан не верный e-mail</string>
+            <string name="no_name">Не указанно имя</string>
+            <string name="no_pass">Не заполнен пароль</string>
+            <string name="no_age">Не указан возраст</string>
+            <string name="pass_not_equal">Пароль не совпадает</string>
+             <string name="suma">Cумма к выводу</string>
+             <string name="money_data">Телефон / № счёта</string>
+             <string name="money_data_type">Способ вывода денег</string>
+               <string name="send_req_money">Отправить заявку</string>
+                <string name="money_data_info">Ваша зявка будет обработана в течение трех рабочих дней.</string>
+			 <string name="kurs">Курс монет:</string>
+			  <string name="balance_1">Количество монет:</string>
+			  <string name="balance_2">Доступно для вывода:</string>
+			  <string name="er_suma">Не верно введена сумма</string>
+			   <string name="er_acc">Не введен номер счета</string>
+			   <string name="er_type">Не выбрат тип оплаты</string>
+			   <string name="er_balance">У вас не достаточно средств</string>
+			   <string name="succes_req">Заявка была отправленна успешно</string>
+			    <string name="null_subscribers">Пока что у вас нет друзей</string>
+			    <string name="qiwi">QIWI кошелёк</string>
+			    <string name="yandex">Яндекс.Деньги</string>
+			     <string name="telefon">Телефон</string>
+			     <string name="get_money_big">ВЫВОД ДЕНЕГ</string>
+			       <string name="game">Розыгрыш</string>
+			           <string name="old_pass">Старый пароль</string>
+			           <string name="new_pass">Новый пароль</string>
+			           <string name="new_pass2">Новый пароль еще раз</string>
+			           <string name="succes_change_pass">Вы успешно сменили пароль.</string>
+			           <string name="changepass">Сменить пароль</string> 
+			            <string name="not_write">Вы не заполнили все поля</string> 
+			           <string name="incorrect_old">Cтарый пароль указан не верно</string> 
+			           <string name="to_new">К новым</string> 
+			           <string name="after_reg_text">Пользователь успешно зарегистрирован. Пользователь успешно зарегистрирован. Для продолжения регистрации на ваш почтовый адрес было выслано письмо с инструкцией.</string> 
+</resources>

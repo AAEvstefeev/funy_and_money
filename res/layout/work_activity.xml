@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/work_layout"
+     >  
+ <LinearLayout 
+     	android:layout_alignParentRight="true"
+        android:layout_gravity="right"   
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:background="#FFFFFF"
+        android:layout_marginTop="50dp"
+        >
+
+     <TextView
+         android:id="@+id/cdds"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#FFFFFF"
+         android:text="@string/coin_count" /> 
+         <TextView
+        android:id="@+id/tv_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="#FFFFFF"
+        android:text="0" />  
+    </LinearLayout> 
+<FrameLayout  
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"     
+     >
+  <ListView
+     android:layout_marginTop="100dp"
+    android:id="@+id/list_work"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+</ListView>   
+       
+	
+
+
+
+   
+</FrameLayout> 
+  <ru.wapstart.plus1.sdk.Plus1BannerView
+			android:id="@+id/plus1BannerView"
+			android:layout_width="320dp"
+			android:layout_height="50dp"
+			android:layout_above="@+id/plus1BannerView"
+			android:layout_gravity="top|center"
+		/> 
+</RelativeLayout>

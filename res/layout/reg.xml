@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"  
+android:background="@drawable/bg"
+android:orientation="vertical"
+    >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:id="@+id/ll"
+         android:visibility="gone"
+          
+           android:gravity="center"
+        android:orientation="vertical" >
+        
+         <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/after_reg_text"
+            android:textColor="@color/dark"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+         
+            <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/key3_p"
+           android:paddingRight="7dp"
+  		   android:paddingLeft="7dp"
+             android:textColor="@color/simple_grey"
+            android:text="@string/back" />
+        </LinearLayout>
+    
+
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg"
+            android:textColor="@color/dark"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/login" />
+
+        <EditText
+            android:id="@+id/edt_login"
+            android:layout_width="200dp"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_margin="2dp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/pass" />
+
+        <EditText
+            android:id="@+id/edt_pass"
+            android:layout_width="match_parent"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+ <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/pass2" />
+
+        <EditText
+            android:id="@+id/edt_pass2"
+            android:layout_width="match_parent"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/mail" />
+
+        <EditText
+            android:id="@+id/edt_mail"
+            android:layout_width="match_parent"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_margin="2dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"    
+            android:layout_margin="2dp"      
+            android:ems="10" />
+
+ <TextView
+            android:id="@+id/t_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+             android:visibility="gone"
+            android:text="@string/age" />       
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         android:layout_margin="2dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+		
+  <Button
+            android:id="@+id/btn_age1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/key3_p"
+            android:textColor="@color/simple_grey"
+            android:gravity="center"
+           android:paddingRight="7dp"
+  		   android:paddingLeft="7dp"
+             android:layout_margin="2dp"
+            android:text="@string/set_age" />
+       <TextView
+            android:id="@+id/txt_age"
+            android:layout_width="wrap_content"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+             android:visibility="gone"
+            android:text="@string/age" />
+     
+       
+</LinearLayout>
+     
+
+<RadioGroup
+       android:id="@+id/radioGroup1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+		>
+
+       <RadioButton
+           android:id="@+id/r_man"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:checked="true"
+           android:text="@string/man" />
+
+       <RadioButton
+           android:id="@+id/r_woman"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/woman" />
+
+   </RadioGroup>
+     <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/ref_code" />
+
+        <EditText
+            android:id="@+id/edt_ref"
+            android:layout_width="match_parent"
+             android:layout_height="35dp"
+            android:gravity="center"
+            android:background="#FFFFFF"    
+            android:layout_margin="2dp"      
+            android:ems="10" />
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/key3_p"
+           android:paddingRight="7dp"
+  		   android:paddingLeft="7dp"
+             android:textColor="@color/simple_grey"
+            android:text="@string/make_reg" />
+          <TextView
+            android:id="@+id/stat_tv"
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+   
+
+</RelativeLayout>    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

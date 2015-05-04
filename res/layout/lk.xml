@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+<ProgressBar
+   
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        
+         />
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="gone"
+    android:id="@+id/main_layout"
+    >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_user_p" />
+ 
+        <TextView
+            android:id="@+id/level"
+              android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:text="@string/level" />
+
+      
+
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/writed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/key1_p"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:text="@string/writed" />
+
+        <Button
+            android:id="@+id/schet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/key2_p"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:text="@string/schet" />
+
+     
+
+        <Button
+            android:id="@+id/get_money"
+            android:background="@drawable/key4_p"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_money" />
+              <Button
+            android:id="@+id/btn_change_pass"
+            android:background="@drawable/key4_p"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changepass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lk_up" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/dark_grey"
+             android:gravity="center"
+            android:text="Имя"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/rcode"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/rcode" />
+           <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:visibility="gone"
+        >
+            <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/balance_2" />
+
+        <TextView
+            android:id="@+id/tv_balance_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+ <TextView
+            android:id="@+id/date"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:textColor="#ffffff"
+            android:text="@string/date_pay" />
+ </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ImageView
+		android:id="@+id/background"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		/>
+		
+	<ru.wapstart.plus1.sdk.Plus1BannerView
+			android:id="@+id/plus1BannerView"
+			android:layout_width="320dp"
+			android:layout_height="50dp"
+			android:layout_gravity="top|center"
+		/>
+		
+</FrameLayout>

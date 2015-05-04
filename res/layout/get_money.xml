@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+      
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"       
+        android:layout_centerVertical="true" 
+         android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+               <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    
+        >
+            
+    </LinearLayout>
+     
+        
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:orientation="vertical"
+             >
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+             >
+  	   <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yandex" />
+            <RadioButton
+                android:id="@+id/yandex"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:clickable="false"
+                android:layout_margin="3dp"
+                android:background="@drawable/radiobutton"
+                 android:button="@android:color/transparent"
+                android:text="" />
+   <Button
+        android:id="@+id/btn_yandex"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/key3_p"
+        android:textColor="#ffffff"   
+        android:text="@string/yandex" />
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+             >
+    <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qiwi" />
+            <RadioButton
+                android:id="@+id/kiwi"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                 android:layout_margin="3dp"
+                 android:background="@drawable/radiobutton"
+                android:clickable="false"
+                 android:button="@android:color/transparent"
+                android:text="" />
+               <Button
+        android:id="@+id/btn_qiwi"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/key1_p"
+        android:textColor="#ffffff"   
+        android:text="@string/qiwi" />
+</LinearLayout>
+  <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+             >       
+  <ImageView
+                android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tel" />
+            <RadioButton
+                android:id="@+id/telefon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                 android:layout_margin="3dp"
+                android:clickable="false"
+                 android:background="@drawable/radiobutton"
+                  android:button="@android:color/transparent"
+                android:text="" />
+         <Button
+        android:id="@+id/btn_telefon"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/key2_p"
+        android:textColor="#ffffff"   
+        android:text="@string/telefon" />
+      </LinearLayout>    
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/money_data" />
+
+        <EditText
+            android:id="@+id/edt_account"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="2dp"
+            android:layout_weight="0.45"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/suma" />
+
+        <EditText
+            android:id="@+id/edt_value"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="2dp"
+            android:layout_weight="0.45"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bar"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/l1"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/l1"
+            android:text="@string/get_money_big" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/dark_grey"
+            android:gravity="center"
+            android:text="Имя"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv123"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/l1"
+            android:text="@string/money_data_info"
+            android:textColor="@color/dark_grey"
+            android:textSize="8dp" />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/l1"
+       
+        android:orientation="vertical" >
+  <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_cash" />
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@color/dark_grey"
+        android:gravity="center" 
+        android:orientation="horizontal"  
+            >
+          
+       <TextView
+            android:id="@+id/tv_balance_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"     
+			
+            android:text=""
+            android:textSize="27dp"
+            android:layout_margin="0dp"
+            android:textColor="#ffffff" />   
+           <ImageView
+                android:id="@+id/rur"
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rur" /> 
+    </LinearLayout>
+    
+    </LinearLayout>
+
+     <Button
+         android:id="@+id/btn_send_req"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/l1"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/key2_p"
+         android:text="@string/send_req_money"
+         android:layout_margin="4dp"
+         android:textColor="#ffffff" />
+
+</RelativeLayout>
